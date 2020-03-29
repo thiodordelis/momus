@@ -3,3 +3,4 @@ node_modules
 package-lock.json
 _public
 .DS_Store
+sample/index.html

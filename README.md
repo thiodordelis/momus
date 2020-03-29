@@ -27,7 +27,7 @@ Install dependencies with npm:
 
     npm install showdown js-beautify glob handlebars parse-markdown-metadata chalk yargs
 
-Write your HTML template ([sample](https://github.com/thiodordelis/momus/blob/master/sample/skeleton.html)), your posts in Markdown and create your blog with:  
+Write your HTML template ([sample](https://github.com/thiodordelis/momus/blob/master/sample/skeleton.html)), your posts in Markdown([sample](https://github.com/thiodordelis/momus/blob/master/sample/my_first_post.md)) and create your blog with:  
 
     node index.js 
 
