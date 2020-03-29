@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">        <title>Momus - Just a static site generator</title>
+    </head>
+    <body>
+        {{#posts}}
+        <div id="block">
+            <h1 id="title">{{title}}</h1>
+            <div id="author">{{author}}</div>
+            <div id="date">{{prettifyDate date}}</div>
+            <div id="content">{{{content}}}</div>
+            {{#unless @last}}
+            <hr>
+            {{/unless}}
+        </div>
+        {{/posts}}
+    </body>
+</html>
